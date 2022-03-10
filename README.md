@@ -1,4 +1,4 @@
-# muVox
+# µVox
 
 Is an open source smart power audio amplifier, released under CC-BY-SA License.
 Powered by the MA12070P & an ESP32 Pico. 

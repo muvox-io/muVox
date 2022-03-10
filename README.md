@@ -28,15 +28,17 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
   - Single ceramic chip antenna design. 
   - Unlimited possibilities, with regards to functionality. Your fantasy is the limit!
 
+- Onboard RGB Neo-Pixels for user feedback.
+
+- JST Connector for option U/I board
+  - Volume Up / Down buttons. 
+  - Power / function button, with push-and-hold to power feature.
+
 - Power Protection Circuit
   - Reverse polarity protection.
   - Short circuit protection.
 
 - All the essential DC-DC power regulation.
-
-- JST Connector for option U/I board
-  - Volume Up / Down buttons. 
-  - Power / function button, with push-and-hold to power feature.
 
 - Connector for external USB/UART bridge, for programming the µC. 
 

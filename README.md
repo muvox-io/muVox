@@ -3,7 +3,7 @@
 Is an open source smart power audio amplifier, released under CC-BY-SA License.
 Powered by the Merus MA12070P Amplifier 🔊 & an ESP32 Pico µC. 
 
-- Designed in Denmark 🇩🇰; proudly challengeing the status quo of the wellestablished Danish Audio Industry. 
+- Designed in Denmark 🇩🇰 - proudly challengeing the status quo of the wellestablished Danish Audio Industry. 
 
 This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD 6.0**
 
@@ -16,7 +16,7 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
 
 ## Hardware Features
 
-µVox is the first of several designs in our portfolio. We're eager to release our platform, and have thus opted to release our first, and certainly most minimal design, as an standing invitation for the comminunity to come join our open audio-endeavours.
+µVox is the first of several designs in our portfolio. We're eager to release our platform, and have thus opted to release our first, and certainly most minimal design, as a standing invitation for the comminunity to come join our open audio-endeavours.
 µVox features the essential hardware necessary, for anyone to get started with open audio, this includes: 
 
 - Audio Amplifier IC (Merus MA12070P)
@@ -47,7 +47,7 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
 
 ## Software Features
 
-Officially supported by 'Euphonium', the most sophisticated open source embedded audio streaming platform we've ever seen, µVox is able to not only do classic A2DP Bluetooth Audio Streaming, webradio streaming, but also native Spotify Connect (yes, you read it right!). All of this functionality is bundled with a web-interface, hosted directly on the ESP, such that µVox is a stand-alone all-in-one open source streaming platform. 
+Officially supported by 'Euphonium', the most sophisticated open source embedded audio streaming platform we've ever seen, µVox is able to not only do classic A2DP Bluetooth Audio Streaming and native webradio streaming, but also native Spotify Connect (yes, you read that right!). All of this functionality is bundled with a web-interface, hosted directly on the ESP, such that µVox is a stand-alone all-in-one open source streaming platform. 
 See, FeelFreeLinux' repository for more details: https://github.com/feelfreelinux/euphonium
 'Euphonium' is under rapid development, and as such isn't quite product-mature (as of mid March '22), but we're in daily contact with FeelFreeLinux, updating oneanother with the latest features and bug-fixes.
 
@@ -58,8 +58,8 @@ https://matrix.to/#/#esp32_audio:matrix.org
 
 ## Where can i get one!?
 
-We'll be back shortly with an official, public sales chanel, soon as we're satisfied with the initial hardware. 
-However if you're eager to get your hands on one NOW, reach out, and we might you joining our beta-tester team!
+We'll be back shortly with an official public sales chanel, soon as we're satisfied with the initial hardware. 
+However if you're eager to get your hands on one NOW - reach out, and we might just consider you for our beta-tester team!
 
 ## As seen in!.. 
 

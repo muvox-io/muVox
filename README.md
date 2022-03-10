@@ -47,7 +47,7 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
 
 ## Software Features
 
-Officially supported by 'Euphonium', the most sophisticated open source embedded audio streaming platform we've ever seen, µVox is able to not only do classic A2DP Bluetooth Audio Streaming, but also native Spotify Connect (yes, you read it right!), and also webradio. All of this functionality is bundled with a web-interface, hosted directly on the ESP, such that µVox is a stand-alone all-in-one open source streaming platform. 
+Officially supported by 'Euphonium', the most sophisticated open source embedded audio streaming platform we've ever seen, µVox is able to not only do classic A2DP Bluetooth Audio Streaming, webradio streaming, but also native Spotify Connect (yes, you read it right!). All of this functionality is bundled with a web-interface, hosted directly on the ESP, such that µVox is a stand-alone all-in-one open source streaming platform. 
 See, FeelFreeLinux' repository for more details: https://github.com/feelfreelinux/euphonium
 'Euphonium' is under rapid development, and as such isn't quite product-mature (as of mid March '22), but we're in daily contact with FeelFreeLinux, updating oneanother with the latest features and bug-fixes.
 

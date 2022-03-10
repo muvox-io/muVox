@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/nixen/esp/muVox/Boring_UI/U:I WS.kicad_sch</source>
+    <date>Wednesday, 09 February 2022 at 10:52:19</date>
+    <tool>Eeschema (6.0.1-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>U:I WS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PWR LATCH/" tstamps="/456babfc-9436-4583-a7a6-dee63665bf3b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PushButton_latch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006089fd0c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000608aa576</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000608b2966</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000608b5e3c</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77e58d85-1e16-4c9f-9896-f0521d7f348d</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a33c2f7a-bfd5-43ba-b4c5-12a759b0cf0a</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d07d2258-fc4f-48b2-97d7-b1d806ca50dd</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00a2c2f9-562e-4606-9572-59774e120ac1</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>Hole</value>
+      <footprint>Pdb_PCB:Threaded Standoff</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006056d6b1</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>Hole</value>
+      <footprint>Pdb_PCB:Threaded Standoff</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006057e17f</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>Hole</value>
+      <footprint>Pdb_PCB:Threaded Standoff</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006057a5bb</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>Hole</value>
+      <footprint>Pdb_PCB:Threaded Standoff</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006057e185</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>U/I INTERCONN.</value>
+      <footprint>Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Field4">455-1808-2-ND</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Field4" value="455-1808-2-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddd5a71e-514a-4e2c-890a-e65822be5eeb</tstamps>
+    </comp>
+    <comp ref="PWR1">
+      <value>SMD_SWITCH</value>
+      <footprint>Lib:SMD_SWITCH_SPST_C318801</footprint>
+      <fields>
+        <field name="LCSC">C318801</field>
+      </fields>
+      <libsource lib="MOUSAIV1.0-rescue" part="SMD_SWITCH-PdB_PCB-eagle-import" description=""/>
+      <property name="LCSC" value="C318801"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dc62d3f-827b-444e-8025-18e9c31d99e4</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <fields>
+        <field name="LCSC">C427380</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC" value="C427380"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c27ad51-bf8e-48ef-a160-1450beeec593</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10KΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C880254</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C880254"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74b18b22-2530-40dd-9d6d-f7e4b1d0c6d0</tstamps>
+    </comp>
+    <comp ref="VOL+1">
+      <value>SMD_SWITCH</value>
+      <footprint>Lib:SMD_SWITCH_SPST_C318801</footprint>
+      <fields>
+        <field name="LCSC">C318801</field>
+      </fields>
+      <libsource lib="MOUSAIV1.0-rescue" part="SMD_SWITCH-PdB_PCB-eagle-import" description=""/>
+      <property name="LCSC" value="C318801"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14a4c3f9-e4fb-4112-9fef-80d64f241333</tstamps>
+    </comp>
+    <comp ref="VOL-1">
+      <value>SMD_SWITCH</value>
+      <footprint>Lib:SMD_SWITCH_SPST_C318801</footprint>
+      <fields>
+        <field name="LCSC">C318801</field>
+      </fields>
+      <libsource lib="MOUSAIV1.0-rescue" part="SMD_SWITCH-PdB_PCB-eagle-import" description=""/>
+      <property name="LCSC" value="C318801"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="U:I WS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>084002e1-72a7-437f-b586-bd62b1358379</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C342901</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC" value="C342901"/>
+      <property name="Sheetname" value="PWR LATCH"/>
+      <property name="Sheetfile" value="PushButton_latch.kicad_sch"/>
+      <sheetpath names="/PWR LATCH/" tstamps="/456babfc-9436-4583-a7a6-dee63665bf3b/"/>
+      <tstamps>00000000-0000-0000-0000-00005f78a43a</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C189957</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C189957"/>
+      <property name="Sheetname" value="PWR LATCH"/>
+      <property name="Sheetfile" value="PushButton_latch.kicad_sch"/>
+      <sheetpath names="/PWR LATCH/" tstamps="/456babfc-9436-4583-a7a6-dee63665bf3b/"/>
+      <tstamps>00000000-0000-0000-0000-00006081dfca</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C189957</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C189957"/>
+      <property name="Sheetname" value="PWR LATCH"/>
+      <property name="Sheetfile" value="PushButton_latch.kicad_sch"/>
+      <sheetpath names="/PWR LATCH/" tstamps="/456babfc-9436-4583-a7a6-dee63665bf3b/"/>
+      <tstamps>00000000-0000-0000-0000-00005f7c5dc8</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C427380</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="LCSC" value="C427380"/>
+      <property name="Sheetname" value="PWR LATCH"/>
+      <property name="Sheetfile" value="PushButton_latch.kicad_sch"/>
+      <sheetpath names="/PWR LATCH/" tstamps="/456babfc-9436-4583-a7a6-dee63665bf3b/"/>
+      <tstamps>00000000-0000-0000-0000-00005f7ac191</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>CJ3407</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="LCSC">C15903</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <property name="LCSC" value="C15903"/>
+      <property name="Sheetname" value="PWR LATCH"/>
+      <property name="Sheetfile" value="PushButton_latch.kicad_sch"/>
+      <sheetpath names="/PWR LATCH/" tstamps="/456babfc-9436-4583-a7a6-dee63665bf3b/"/>
+      <tstamps>00000000-0000-0000-0000-00005f7913a2</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C525714</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C525714"/>
+      <property name="Sheetname" value="PWR LATCH"/>
+      <property name="Sheetfile" value="PushButton_latch.kicad_sch"/>
+      <sheetpath names="/PWR LATCH/" tstamps="/456babfc-9436-4583-a7a6-dee63665bf3b/"/>
+      <tstamps>00000000-0000-0000-0000-00005f820440</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25803"/>
+      <property name="Sheetname" value="PWR LATCH"/>
+      <property name="Sheetfile" value="PushButton_latch.kicad_sch"/>
+      <sheetpath names="/PWR LATCH/" tstamps="/456babfc-9436-4583-a7a6-dee63665bf3b/"/>
+      <tstamps>00000000-0000-0000-0000-00005f80edc6</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC" value="C25803"/>
+      <property name="Sheetname" value="PWR LATCH"/>
+      <property name="Sheetfile" value="PushButton_latch.kicad_sch"/>
+      <sheetpath names="/PWR LATCH/" tstamps="/456babfc-9436-4583-a7a6-dee63665bf3b/"/>
+      <tstamps>00000000-0000-0000-0000-00005f78b7d5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PMOS_GSD">
+      <description>P-MOSFET transistor, gate/source/drain</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_GSD</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MOUSAIV1.0-rescue" part="SMD_SWITCH-PdB_PCB-eagle-import">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SMD_SWITCH-PdB_PCB-eagle-import</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D3" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D6" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D9" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="BTN">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="ENA_BUCK">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D12" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D3" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D6" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D9" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="PWR1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="VOL+1" pin="2" pinfunction="2" pintype="bidirectional"/>
+      <node ref="VOL-1" pin="2" pinfunction="2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="LED_D">
+      <node ref="D3" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="LED_DATA_3v3">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C40-Pad2)">
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D6" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="D9" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="10" name="Net-(D12-Pad4)">
+      <node ref="D12" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="D9" pin="2" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="PWR_BTN">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="PWR1" pin="3" pinfunction="3" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="VCC">
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="VOL+">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="VOL+1" pin="3" pinfunction="3" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="VOL-">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="VOL-1" pin="3" pinfunction="3" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(PWR1-Pad1)">
+      <node ref="PWR1" pin="1" pinfunction="1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(PWR1-Pad4)">
+      <node ref="PWR1" pin="4" pinfunction="4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(VOL+1-Pad1)">
+      <node ref="VOL+1" pin="1" pinfunction="1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(VOL+1-Pad4)">
+      <node ref="VOL+1" pin="4" pinfunction="4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(VOL-1-Pad1)">
+      <node ref="VOL-1" pin="1" pinfunction="1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(VOL-1-Pad4)">
+      <node ref="VOL-1" pin="4" pinfunction="4" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

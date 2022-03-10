@@ -69,7 +69,7 @@ See: https://github.com/LydByDissing/stroem and https://stroem.readthedocs.io/en
 And if you happen to speak danish, our article in the newspaper 'the engineer': https://ing.dk/artikel/saa-skal-bygges-ings-laesere-udvikler-helt-ny-open-source-hoejttaler-vaer-med-254857
 
 Besides STRØM, we're also involved with Lennart Jarde' latest project. 
-Coming from a background as a prestitious classical musician, and serious hi-fi tinkering, Lennart is now focussing on his magnum opus: 
+Coming from a background as a prestigious classical musician, and serious hi-fi tinkering, Lennart is now focussing on his magnum opus: 
 http://ljweb.dk/Loudspeakers/project/project.html
 Again, if you happen to speak danish: https://dmf.dk/news/lennart-jarde-et-todelt-liv
 

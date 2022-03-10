@@ -1,0 +1,3 @@
+# Ignore garbage MacOS files
+.DS_Store
+Icon?

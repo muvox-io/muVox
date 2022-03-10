@@ -3,6 +3,8 @@
 Is an open source smart power audio amplifier, released under CC-BY-SA License.
 Powered by the Merus MA12070P Amplifier 🔊 & an ESP32 Pico µC. 
 
+- Designed in Denmark 🇩🇰; proudly challengeing the status quo of the wellestablished Danish Audio Industry. 
+
 This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD 6.0**
 
 ## Goals
@@ -55,6 +57,22 @@ Join our matrix-room! We update the ESP32-Audio community there regularly, and a
 https://matrix.to/#/#esp32_audio:matrix.org
 
 
+## As seen in!.. 
+
+We're already involved with several companies, wanting to use the platform in their products.
+We're happy to announce our collaboration with 'Lyd By Dissing', featured in their latest product 'STRØM' - an open source smart speaker. 
+See: https://github.com/LydByDissing/stroem and https://stroem.readthedocs.io/en/latest/ for further details. 
+And if you happen to speak danish, our article in the newspaper 'the engineer': https://ing.dk/artikel/saa-skal-bygges-ings-laesere-udvikler-helt-ny-open-source-hoejttaler-vaer-med-254857
+
+Besides STRØM, we're also involved with Lennart Jarde' latest project. 
+Coming from a background as a prestitious classical musician, and serious hi-fi tinkering, Lennart is now focussing on his magnum opus: 
+http://ljweb.dk/Loudspeakers/project/project.html
+Again, if you happen to speak danish: https://dmf.dk/news/lennart-jarde-et-todelt-liv
+
+We have several more collaborations in the works, however none of which are public, just yet. Stay tuned!
+
+
+![plot](./Renders/PCB_IRL.jpg)
 ![plot](./Renders/muvox_wip_front.png)
 ![plot](./Renders/muvox_wip_back.png)
 

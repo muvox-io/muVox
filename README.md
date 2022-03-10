@@ -16,7 +16,7 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
 
 ## Hardware Features
 
-µVox is the first, of many designs, in our portfolio. We're eager to release our platform, and have thus oped to release our first, and certainly most minimal design, as an standing invitation for the comminunity to come join our open audio-endeavours.
+µVox is the first of several designs in our portfolio. We're eager to release our platform, and have thus opted to release our first, and certainly most minimal design, as an standing invitation for the comminunity to come join our open audio-endeavours.
 µVox features the essential hardware necessary, for anyone to get started with open audio, this includes: 
 
 - Audio Amplifier IC (Merus MA12070P)
@@ -56,6 +56,10 @@ See, FeelFreeLinux' repository for more details: https://github.com/feelfreelinu
 Join our matrix-room! We update the ESP32-Audio community there regularly, and are always open to input, and or questions, there. 
 https://matrix.to/#/#esp32_audio:matrix.org
 
+## Where can i get one!?
+
+We'll be back shortly with an official, public sales chanel, soon as we're satisfied with the initial hardware. 
+However if you're eager to get your hands on one NOW, reach out, and we might you joining our beta-tester team!
 
 ## As seen in!.. 
 

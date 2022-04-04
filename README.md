@@ -58,7 +58,7 @@ https://matrix.to/#/#esp32_audio:matrix.org
 
 ## Where can i get one!?
 
-We'll be back shortly with an official public sales chanel, soon as we're satisfied with the initial hardware. 
+We'll be back shortly with an official public sales channel, soon as we're satisfied with the initial hardware. 
 However if you're eager to get your hands on one NOW - reach out, and we might just consider you for our beta-tester team!
 
 ## As seen in!.. 
@@ -75,8 +75,12 @@ Again, if you happen to speak danish: https://dmf.dk/news/lennart-jarde-et-todel
 
 We have several more collaborations in the works, however none of which are public, just yet. Stay tuned!
 
+## Current status
+**(Late Mar. '22)**
+Latest prototype boards have arrived, and are seemingly working. However - we're facing serious difficulty getting the PICO-IC's soldered properly, and as a result have managed to get two boards working so far. These, however, are working nicely. We're currently trying to figure out, how we can improve on the soldering difficulties. 
 
-![plot](./Renders/PCB_IRL.jpg)
+
+![plot](./Renders/muvox_kicad_overlay.jpg)
 ![plot](./Renders/muvox_wip_front.png)
 ![plot](./Renders/muvox_wip_back.png)
-
+![plot](./Renders/PCB_IRL.jpg)

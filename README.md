@@ -79,6 +79,9 @@ We have several more collaborations in the works, however none of which are publ
 **(Late Mar. '22)**
 Latest prototype boards have arrived, and are seemingly working. However - we're facing serious difficulty getting the PICO-IC's soldered properly, and as a result have managed to get two boards working so far. These, however, are working nicely. We're currently trying to figure out, how we can improve on the soldering difficulties. 
 
+**(Early Apr. '22)**
+After removing the PICO-IC off of several µVox's I've found that regardsless of how much I've reworked the chip from above (and how nice the solder joints might look from up top), the pins weren't sticking properly! Seemingly I must've had too much solder on the GND pad, lifting the chip slightly, such that the pins wound't connect. This lift, plus a significant amount of flux seemingly left the pins NC'd. After taking the IC off, I've (don't tell anyone! 😬) pretinned the bottom of the IC with my soldering iron, and reworked the IC back onto the board. As a result i now have 8 working boards 👍.
+This solution clearly isn't viable, and for the next revision I'll be ordering a stencil, such that the PICO can be soldered with solder paste - which will hopefully mittigate the problem!. 
 
 ![plot](./Renders/muvox_kicad_overlay.jpg)
 ![plot](./Renders/muvox_wip_front.png)

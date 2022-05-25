@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -103,7 +103,7 @@
       "rule_severitieslegacy_courtyards_overlap": true,
       "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
-        "allow_blind_buried_vias": false,
+        "allow_blind_buried_vias": true,
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
@@ -389,7 +389,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "muVox.step",
+      "step": "../../../Desktop/muVox.STEP",
       "vrml": "muVox.wrl"
     },
     "page_layout_descr_file": ""
@@ -442,12 +442,16 @@
       "ERR_LED_INV"
     ],
     [
-      "00000000-0000-0000-0000-000061ec33a8",
-      "AMPLIFIER"
+      "3ddaeb0a-149b-4c6d-a910-a2d3377e0f7c",
+      "ESP32 WROVER"
     ],
     [
       "00000000-0000-0000-0000-000061f165f2",
       "DC Protection"
+    ],
+    [
+      "e1926d9f-dcd0-4fb0-88d5-346fe5dbea73",
+      "Amplifier #0"
     ]
   ],
   "text_variables": {}

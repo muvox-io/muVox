@@ -24,15 +24,14 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
   - Supply Voltage 7-26V.
   - Multilevel Class-D Switching technology for unparalleled power efficiency.
     
-- ESP32 Pico V3-02 Microprocessor Core
-  - 8MB Flash + 2MB PSRAM
+- ESP32 WROVER Microprocessor Core
+  - 16MB Flash + 8MB PSRAM
   - Wifi (2.4 GHz) & Bluetooth connectivity.
-  - Single ceramic chip antenna design. 
   - Unlimited possibilities, with regards to functionality. Your fantasy is the limit!
 
 - Onboard RGB Neo-Pixels for user feedback.
 
-- JST Connector for option U/I board
+- Connector for option U/I board
   - Volume Up / Down buttons. 
   - Power / function button, with push-and-hold to power feature.
 
@@ -48,9 +47,9 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
 
 ## Software Features
 
-Officially supported by 'Euphonium', the most sophisticated open source embedded audio streaming platform we've ever seen, µVox is able to not only do classic A2DP Bluetooth Audio Streaming and native webradio streaming, but also native Spotify Connect (yes, you read that right!). All of this functionality is bundled with a web-interface, hosted directly on the ESP, such that µVox is a stand-alone all-in-one open source streaming platform. 
+Officially supported by 'Euphonium', the most sophisticated open source embedded audio streaming platform we've ever seen, µVox is able to not only do classic A2DP Bluetooth Audio Streaming and native webradio streaming, but also native Spotify Connect. All of this functionality is bundled with a web-interface, hosted directly on the ESP, such that µVox is a stand-alone all-in-one open source streaming platform. 
 See, FeelFreeLinux' repository for more details: https://github.com/feelfreelinux/euphonium
-'Euphonium' is under rapid development, and as such isn't quite product-mature (as of mid March '22), but we're in daily contact with FeelFreeLinux, updating oneanother with the latest features and bug-fixes.
+'Euphonium' is under rapid development, but we're in daily contact with FeelFreeLinux, updating oneanother with the latest features and bug-fixes.
 
 ## How to get involved!
 
@@ -85,7 +84,7 @@ After removing the PICO-IC off of several µVox's I've found that regardsless of
 This solution clearly isn't viable, and for the next revision I'll be ordering a stencil, such that the PICO can be soldered with solder paste - which will hopefully mittigate the problem!. 
 
 **(Summer '22)**
-So.. The pico-core has been ditched, in favor of the good old WROVER module. So, we're now using a WROVER with 8MB PSRAM, and 16MB Flash. This has drastically improved the soldering process (as formerly mentioned). This change will also certainly make the future certification process signifianly easier, with regards to RF. 
+So.. The pico-core has been ditched, in favor of the good old WROVER module. We're now using a WROVER with 8MB PSRAM, and 16MB Flash. This has drastically improved the soldering process. This change will also certainly make the future certification process signifianly easier, with regards to RF. 
 We've added overvoltage protection on the PVDD rail (upto 26V) and overvoltage protection on the 5v0 rail. The 5v0 rail was causing overshooting issues in the earlier revision, causing the amplifier IC to blow, on some (few, luckily) powersupplies. The 'front-ui' connector has been changed to one with more pins. This allows us to have the I2C bus routed up to front panel (reasons for which will be revealed later!). A JTAG header and a PVDD monitoring-circuit (for battery-level) as also been added.
 
 ![plot](./Renders/muvox_kicad_overlay.jpg)

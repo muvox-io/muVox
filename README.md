@@ -39,6 +39,7 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
 - Power Protection Circuit
   - Reverse polarity protection.
   - Short circuit protection.
+  - Over voltage protection on both the PVDD (up to 26V) and DVDD (5V) rail.
 
 - All the essential DC-DC power regulation.
 
@@ -82,6 +83,10 @@ Latest prototype boards have arrived, and are seemingly working. However - we're
 **(Early Apr. '22)**
 After removing the PICO-IC off of several µVox's I've found that regardsless of how much I've reworked the chip from above (and how nice the solder joints might look from up top), the pins weren't sticking properly! Seemingly I must've had too much solder on the GND pad, lifting the chip slightly, such that the pins wound't connect. This lift, plus a significant amount of flux seemingly left the pins NC'd. After taking the IC off, I've (don't tell anyone! 😬) pretinned the bottom of the IC with my soldering iron, and reworked the IC back onto the board. As a result i now have 8 working boards 👍.
 This solution clearly isn't viable, and for the next revision I'll be ordering a stencil, such that the PICO can be soldered with solder paste - which will hopefully mittigate the problem!. 
+
+**(Summer '22)**
+So.. The pico-core has been ditched, in favor of the good old WROVER module. So, we're now using a WROVER with 8MB PSRAM, and 16MB Flash. This has drastically improved the soldering process (as formerly mentioned). This change will also certainly make the future certification process signifianly easier, with regards to RF. 
+We've added overvoltage protection on the PVDD rail (upto 26V) and overvoltage protection on the 5v0 rail. The 5v0 rail was causing overshooting issues in the earlier revision, causing the amplifier IC to blow, on some (few, luckily) powersupplies. 
 
 ![plot](./Renders/muvox_kicad_overlay.jpg)
 ![plot](./Renders/muvox_wip_front.png)

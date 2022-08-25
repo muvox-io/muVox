@@ -86,7 +86,7 @@ This solution clearly isn't viable, and for the next revision I'll be ordering a
 
 **(Summer '22)**
 So.. The pico-core has been ditched, in favor of the good old WROVER module. So, we're now using a WROVER with 8MB PSRAM, and 16MB Flash. This has drastically improved the soldering process (as formerly mentioned). This change will also certainly make the future certification process signifianly easier, with regards to RF. 
-We've added overvoltage protection on the PVDD rail (upto 26V) and overvoltage protection on the 5v0 rail. The 5v0 rail was causing overshooting issues in the earlier revision, causing the amplifier IC to blow, on some (few, luckily) powersupplies. 
+We've added overvoltage protection on the PVDD rail (upto 26V) and overvoltage protection on the 5v0 rail. The 5v0 rail was causing overshooting issues in the earlier revision, causing the amplifier IC to blow, on some (few, luckily) powersupplies. The 'front-ui' connector has been changed to one with more pins. This allows us to have the I2C bus routed up to front panel (reasons for which will be revealed later!). A JTAG header and a PVDD monitoring-circuit (for battery-level) as also been added.
 
 ![plot](./Renders/muvox_kicad_overlay.jpg)
 ![plot](./Renders/muvox_wip_front.png)

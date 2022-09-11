@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.6,
-          "width": 5.6
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.75
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -106,7 +106,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.09999999999999999,
         "min_copper_edge_clearance": 0.049999999999999996,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -128,6 +128,7 @@
         0.8,
         1.0,
         2.0,
+        2.6,
         3.0
       ],
       "via_dimensions": [
@@ -137,7 +138,7 @@
         }
       ],
       "zones_allow_external_fillets": true,
-      "zones_use_no_outline": true
+      "zones_use_no_outline": false
     },
     "layer_presets": []
   },
@@ -362,7 +363,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.2,
+        "clearance": 0.01,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -426,7 +427,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -436,10 +437,6 @@
     [
       "84d4e166-b429-409a-ab37-c6a10fd82ff5",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-000061f9101a",
-      "ERR_LED_INV"
     ],
     [
       "3ddaeb0a-149b-4c6d-a910-a2d3377e0f7c",

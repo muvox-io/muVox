@@ -1,9 +1,0 @@
-- Zasilanie wejściowe odsunąć od pozostałych ścieżek
-- TVS jak najbliżej złącza wejścia
-- Brak VIA na padach
-- GND stitching
-- Kondensator 22uF na ESP32 3.3V
-- Inny stackup (sig / GND / VCC / sig)
-- Odsunąć SMD od otworów (głównie feryty na wyjściu) i ustawić bokiem
-- przeznaczyć miejsca na mousebites, odsunąć kondensatory od krawędzi
-- brak stichingu pod filtrem w wejściu

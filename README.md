@@ -1,9 +1,9 @@
 # µVox
 
 Is an open source smart power audio amplifier, released under CC-BY-SA License.
-Powered by the Merus MA12070P Amplifier 🔊 & an ESP32 Pico µC. 
+Powered by the Merus MA12070P Amplifier 🔊 & an ESP32 Wrover µC. 
 
-- Designed in Denmark 🇩🇰 - proudly challengeing the status quo of the wellestablished Danish Audio Industry. 
+- Designed in Denmark 🇩🇰 - proudly challenging the status quo of the wellestablished Danish Audio Industry. 
 
 This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD 6.0**
 
@@ -24,17 +24,15 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
   - Supply Voltage 7-26V.
   - Multilevel Class-D Switching technology for unparalleled power efficiency.
     
-- ESP32 Pico V3-02 Microprocessor Core
-  - 8MB Flash + 2MB PSRAM
+- ESP32 WROVER V3-02 Microprocessor Core
+  - 16MB Flash + 8MB PSRAM
   - Wifi (2.4 GHz) & Bluetooth connectivity.
   - Single ceramic chip antenna design. 
   - Unlimited possibilities, with regards to functionality. Your fantasy is the limit!
 
 - Onboard RGB Neo-Pixels for user feedback.
 
-- JST Connector for option U/I board
-  - Volume Up / Down buttons. 
-  - Power / function button, with push-and-hold to power feature.
+- JST Connector for optional extension boards.
 
 - Power Protection Circuit
   - Reverse polarity protection.
@@ -87,6 +85,9 @@ This solution clearly isn't viable, and for the next revision I'll be ordering a
 **(Summer '22)**
 So.. The pico-core has been ditched, in favor of the good old WROVER module. So, we're now using a WROVER with 8MB PSRAM, and 16MB Flash. This has drastically improved the soldering process (as formerly mentioned). This change will also certainly make the future certification process signifianly easier, with regards to RF. 
 We've added overvoltage protection on the PVDD rail (upto 26V) and overvoltage protection on the 5v0 rail. The 5v0 rail was causing overshooting issues in the earlier revision, causing the amplifier IC to blow, on some (few, luckily) powersupplies. The 'front-ui' connector has been changed to one with more pins. This allows us to have the I2C bus routed up to front panel (reasons for which will be revealed later!). A JTAG header and a PVDD monitoring-circuit (for battery-level) as also been added.
+
+**(Fall '22)**
+We're finally getting serious about producing units for sale, as the design is now stable to a point where we fell as though µVox is ready. Our plan is to have 50 units produced by the end of Oct. 22. In preperation for said production run, we've expanded the design with a couple of new features: former front ui header, has now been replaced by two connectors; the extension and advanced extension connectors (extentions will be announced at a later stage.). We've implemented overvoltage protection on PVDD as well as 5v0. The onboard neopixels and the ERR diode have been replaced by a 'dumb' rgb diode, which will indicated system status. Lastly test-points have been added for production streamlining. Stay tuned.. 
 
 ![plot](./Renders/muvox_wip_front.png)
 ![plot](./Renders/muvox_wip_back.png)

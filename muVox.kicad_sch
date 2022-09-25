@@ -5884,6 +5884,9 @@
     (path "/00000000-0000-0000-0000-000061f165f2/ccfcecb9-d307-4ed7-be7a-5f81bf6d0ced"
       (reference "#PWR086") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000061f165f2/1d4df1fe-fc37-4244-9f57-43d6ead3c0ee"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5c1d83dd-5e1b-4459-8af3-fde0ec411dbc"
       (reference "#SUPPLY01") (unit 1) (value "GND") (footprint "")
     )
@@ -6048,6 +6051,9 @@
     )
     (path "/00000000-0000-0000-0000-000061f165f2/9c4757a4-527b-4292-98db-97e23c7116c0"
       (reference "D6") (unit 1) (value "16V") (footprint "Diode_SMD:D_SOD-123F")
+    )
+    (path "/00000000-0000-0000-0000-000061f165f2/9f960182-8466-469b-8e67-50d7d45fd14a"
+      (reference "D?") (unit 1) (value "27V") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/e1926d9f-dcd0-4fb0-88d5-346fe5dbea73/00000000-0000-0000-0000-00007ee5eb43"
       (reference "FB1") (unit 1) (value "~") (footprint "Capacitor_SMD:C_1206_3216Metric")

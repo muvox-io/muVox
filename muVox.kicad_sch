@@ -4495,7 +4495,7 @@
   (symbol (lib_id "Device:R_Small") (at 170.18 81.915 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9df1c6a2-49fc-4869-9282-c6338650b515)
-    (property "Reference" "R?" (id 0) (at 166.624 81.915 90))
+    (property "Reference" "R19" (id 0) (at 166.624 81.915 90))
     (property "Value" "10K" (id 1) (at 168.402 81.915 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 170.18 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4577,7 +4577,7 @@
   (symbol (lib_id "power:VDC") (at 95.885 165.1 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a7ef7ceb-07b3-4494-8ae8-fabc6e4e3c2d)
-    (property "Reference" "#PWR?" (id 0) (at 95.885 167.64 0)
+    (property "Reference" "#PWR015" (id 0) (at 95.885 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDC" (id 1) (at 93.98 161.417 0)
@@ -5041,7 +5041,7 @@
   (symbol (lib_id "power:GND") (at 170.18 93.345 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e269ede9-ccf5-4435-a884-0a88b4365c4b)
-    (property "Reference" "#PWR?" (id 0) (at 170.18 99.695 0)
+    (property "Reference" "#PWR053" (id 0) (at 170.18 99.695 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 170.18 96.52 90)
@@ -5099,7 +5099,7 @@
   (symbol (lib_id "Device:R_Small") (at 170.18 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e5ea8f6e-2702-4ff1-94d6-9a705ab5b928)
-    (property "Reference" "R?" (id 0) (at 166.37 88.9 90))
+    (property "Reference" "R20" (id 0) (at 166.37 88.9 90))
     (property "Value" "10K" (id 1) (at 168.275 88.9 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 170.18 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5323,7 +5323,7 @@
   (symbol (lib_id "power:GND") (at 122.555 166.37 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fa3ebdef-b642-47f7-a6cd-2ecad6181dca)
-    (property "Reference" "#PWR?" (id 0) (at 122.555 172.72 0)
+    (property "Reference" "#PWR025" (id 0) (at 122.555 172.72 0)
       (effects (font (size 1.2 1.2)) hide)
     )
     (property "Value" "GND" (id 1) (at 122.555 170.18 0)
@@ -5668,6 +5668,9 @@
     (path "/010f36b9-6c71-489e-828a-e8f3afbcfba9"
       (reference "#PWR014") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a7ef7ceb-07b3-4494-8ae8-fabc6e4e3c2d"
+      (reference "#PWR015") (unit 1) (value "VDC") (footprint "")
+    )
     (path "/b516b378-5ac6-4bef-8147-896a2a03555c"
       (reference "#PWR016") (unit 1) (value "GND") (footprint "")
     )
@@ -5694,6 +5697,9 @@
     )
     (path "/ad71d65e-800c-4910-a72e-f67aba06a040"
       (reference "#PWR024") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/fa3ebdef-b642-47f7-a6cd-2ecad6181dca"
+      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
     )
     (path "/30da75c9-2971-473f-96b5-e147bfcecd1a"
       (reference "#PWR026") (unit 1) (value "+5V") (footprint "")
@@ -5776,10 +5782,10 @@
     (path "/00000000-0000-0000-0000-000061f165f2/00000000-0000-0000-0000-000060bb5071"
       (reference "#PWR052") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061f165f2/5d3c1424-3f25-4042-ac2f-c387e417206a"
+    (path "/e269ede9-ccf5-4435-a884-0a88b4365c4b"
       (reference "#PWR053") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061f165f2/5b218119-3874-46e9-9228-7b961dcc0847"
+    (path "/00000000-0000-0000-0000-000061f165f2/7e898ea9-0cc0-4a92-8651-9dac3ecabdfe"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061f165f2/f3ac8b70-47f3-48ed-ac61-97566080708d"
@@ -5872,14 +5878,11 @@
     (path "/e1926d9f-dcd0-4fb0-88d5-346fe5dbea73/ab102b24-3ea4-4f0e-bc57-d91b32a56cfc"
       (reference "#PWR084") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/a7ef7ceb-07b3-4494-8ae8-fabc6e4e3c2d"
-      (reference "#PWR?") (unit 1) (value "VDC") (footprint "")
+    (path "/00000000-0000-0000-0000-000061f165f2/f1d8f266-835b-4759-baa9-38174f940136"
+      (reference "#PWR085") (unit 1) (value "GND") (footprint "")
     )
-    (path "/e269ede9-ccf5-4435-a884-0a88b4365c4b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/fa3ebdef-b642-47f7-a6cd-2ecad6181dca"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-000061f165f2/ccfcecb9-d307-4ed7-be7a-5f81bf6d0ced"
+      (reference "#PWR086") (unit 1) (value "GND") (footprint "")
     )
     (path "/5c1d83dd-5e1b-4459-8af3-fde0ec411dbc"
       (reference "#SUPPLY01") (unit 1) (value "GND") (footprint "")
@@ -6040,6 +6043,12 @@
     (path "/cf3fa03e-8d52-4e58-83de-88472fb335f4"
       (reference "D4") (unit 1) (value "Prot.ADC") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
+    (path "/00000000-0000-0000-0000-000061f165f2/1a4e5660-26c3-48ae-a155-2e86d222a820"
+      (reference "D5") (unit 1) (value "16V") (footprint "Diode_SMD:D_SOD-123F")
+    )
+    (path "/00000000-0000-0000-0000-000061f165f2/9c4757a4-527b-4292-98db-97e23c7116c0"
+      (reference "D6") (unit 1) (value "16V") (footprint "Diode_SMD:D_SOD-123F")
+    )
     (path "/e1926d9f-dcd0-4fb0-88d5-346fe5dbea73/00000000-0000-0000-0000-00007ee5eb43"
       (reference "FB1") (unit 1) (value "~") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
@@ -6103,8 +6112,8 @@
     (path "/00000000-0000-0000-0000-000061f165f2/00000000-0000-0000-0000-000060ba7374"
       (reference "Q1") (unit 1) (value "VBA4658") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/00000000-0000-0000-0000-000061f165f2/10153713-3adf-4252-bfe7-75445f5caacb"
-      (reference "Q2") (unit 1) (value "NDS0610") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/00000000-0000-0000-0000-000061f165f2/5297fe52-8bc2-4fcd-83aa-62fec1ba4f97"
+      (reference "Q2") (unit 1) (value "Q_PMOS_GDS") (footprint "Package_TO_SOT_SMD:SOT-223")
     )
     (path "/4362ba55-8603-4a6e-b717-f917534fe8ea"
       (reference "R1") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -6160,20 +6169,32 @@
     (path "/3ddaeb0a-149b-4c6d-a910-a2d3377e0f7c/00000000-0000-0000-0000-0000616a639a"
       (reference "R18") (unit 1) (value "10KΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000061f165f2/d4272db1-e77a-452e-b1fd-955cde8212da"
-      (reference "R19") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/9df1c6a2-49fc-4869-9282-c6338650b515"
+      (reference "R19") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-000061f165f2/adb77f88-cbd8-430e-ad6b-bb78656c5fb8"
+    (path "/e5ea8f6e-2702-4ff1-94d6-9a705ab5b928"
       (reference "R20") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/e1926d9f-dcd0-4fb0-88d5-346fe5dbea73/4fc232f7-2ce6-431c-b11f-f9b72277d691"
       (reference "R21") (unit 1) (value "100KΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/9df1c6a2-49fc-4869-9282-c6338650b515"
-      (reference "R?") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-000061f165f2/21ce55f5-56ae-4a72-9ade-5248ec95c99d"
+      (reference "R22") (unit 1) (value "97.6k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/e5ea8f6e-2702-4ff1-94d6-9a705ab5b928"
-      (reference "R?") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-000061f165f2/c638d8a4-4a10-41a6-9354-a92c505a6980"
+      (reference "R23") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061f165f2/653b5f61-2a58-49cb-bdfb-eb0a93996fed"
+      (reference "R24") (unit 1) (value "20K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061f165f2/e1495e97-3b79-40de-80ec-c49ea7c45660"
+      (reference "R25") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061f165f2/049c830e-06d7-4092-8043-073103f564f3"
+      (reference "R26") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061f165f2/10af9835-c122-4aa4-bb6f-7b31c63e859e"
+      (reference "R27") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/137bc78a-de7d-4970-b85a-799136e0c7aa"
       (reference "SW1") (unit 1) (value "EG120A") (footprint "Lib:SLIDE-SWITCH")
@@ -6244,8 +6265,8 @@
     (path "/e1926d9f-dcd0-4fb0-88d5-346fe5dbea73/00000000-0000-0000-0000-000061f00a34"
       (reference "U5") (unit 1) (value "~") (footprint "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP5.45x5.45mm_ThermalVias")
     )
-    (path "/00000000-0000-0000-0000-000061f165f2/636875b4-38eb-4e4a-a664-b870d5499b87"
-      (reference "ZD1") (unit 1) (value "MMSZ5252BT1G") (footprint "Diode_SMD:D_SOD-123")
+    (path "/00000000-0000-0000-0000-000061f165f2/7c69f4e7-4641-4d95-8179-c809c0bae0d6"
+      (reference "U6") (unit 1) (value "TL431DBZ") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
   )
 )

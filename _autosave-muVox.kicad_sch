@@ -6098,6 +6098,12 @@
     (path "/8ec6cd1f-1e36-4a6a-87bc-883cf23419b4"
       (reference "R6") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-000061f165f2/ebc94b31-4a27-48af-b1d6-1121e25d52c6"
+      (reference "R7") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061f165f2/3db8f8db-ce72-47ff-a299-9cde3c36eb76"
+      (reference "R8") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/3d0c240d-a893-4fb0-8384-8c46e39242ae"
       (reference "R9") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -6151,12 +6157,6 @@
     )
     (path "/e1926d9f-dcd0-4fb0-88d5-346fe5dbea73/4fc232f7-2ce6-431c-b11f-f9b72277d691"
       (reference "R27") (unit 1) (value "100KΩ") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061f165f2/3db8f8db-ce72-47ff-a299-9cde3c36eb76"
-      (reference "R?") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061f165f2/ebc94b31-4a27-48af-b1d6-1121e25d52c6"
-      (reference "R?") (unit 1) (value "2K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/137bc78a-de7d-4970-b85a-799136e0c7aa"
       (reference "SW1") (unit 1) (value "EG120A") (footprint "Lib:SLIDE-SWITCH")

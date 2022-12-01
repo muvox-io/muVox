@@ -3037,7 +3037,7 @@
     (effects (font (size 1.2954 1.2954) (thickness 0.2591) bold) (justify left bottom))
     (uuid ca15a71a-5918-4e6f-8b81-1205df26e459)
   )
-  (text "0.7" (at 269.875 194.31 0)
+  (text "0.9" (at 269.875 194.31 0)
     (effects (font (size 1.8034 1.8034) (thickness 0.3607) bold) (justify left bottom))
     (uuid fc12372f-6e31-40f9-8043-b00b861f0171)
   )

@@ -2323,7 +2323,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 084a5226-e585-474f-a290-eba990a85c64)
   )
-  (hierarchical_label "CLIP" (shape input) (at 47.244 96.266 180)
+  (hierarchical_label "~{CLIP}" (shape input) (at 47.244 96.266 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 38f8d8e8-7094-4359-9356-a29bfeb75dea)
   )

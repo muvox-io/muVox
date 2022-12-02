@@ -1,7 +1,7 @@
 # µVox
 
 Is an open source smart power audio amplifier, released under CC-BY-SA License.
-Powered by the Merus MA12070P Amplifier 🔊 & an ESP32 Wrover µC. 
+Powered by the Merus MA12070P Amplifier 🔊 & an ESP32 µC. 
 
 - Designed in Denmark 🇩🇰 - proudly challenging the status quo of the wellestablished Danish Audio Industry. 
 
@@ -24,15 +24,16 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
   - Supply Voltage 7-26V.
   - Multilevel Class-D Switching technology for unparalleled power efficiency.
     
-- ESP32 WROVER V3-02 Microprocessor Core
+- ESP32 WROVER E Microprocessor Core
   - 16MB Flash + 8MB PSRAM
   - Wifi (2.4 GHz) & Bluetooth connectivity.
-  - Single ceramic chip antenna design. 
   - Unlimited possibilities, with regards to functionality. Your fantasy is the limit!
 
-- Onboard RGB Neo-Pixels for user feedback.
+- Onboard RGB diode for user feedback.
 
-- JST Connector for optional extension boards.
+- Connector for optional extension boards. (Compatible with Adafruits Stemma QT)
+
+- (Optional) IDC connector for 'advanced' audio expansion modules.
 
 - Power Protection Circuit
   - Reverse polarity protection.
@@ -46,9 +47,9 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
 
 ## Software Features
 
-Officially supported by 'Euphonium', the most sophisticated open source embedded audio streaming platform we've ever seen, µVox is able to not only do classic A2DP Bluetooth Audio Streaming and native webradio streaming, but also native Spotify Connect (yes, you read that right!). All of this functionality is bundled with a web-interface, hosted directly on the ESP, such that µVox is a stand-alone all-in-one open source streaming platform. 
+Officially supported by 'Euphonium', the most sophisticated open source embedded audio streaming platform we've ever seen, µVox is able to not only do classic A2DP Bluetooth Audio Streaming and native webradio streaming, but also native Spotify Connect. All of this functionality is bundled with a web-interface, hosted directly on the ESP, such that µVox is a stand-alone all-in-one open source streaming platform. 
 See, FeelFreeLinux' repository for more details: https://github.com/feelfreelinux/euphonium
-'Euphonium' is under rapid development, and as such isn't quite product-mature (as of mid March '22), but we're in daily contact with FeelFreeLinux, updating oneanother with the latest features and bug-fixes.
+'Euphonium' is under rapid development, and as such isn't quite product-mature (as of Dec. '22), but we're in daily contact with FeelFreeLinux, updating oneanother with the latest features and bug-fixes, effectively co-developing the board.
 
 ## How to get involved!
 
@@ -75,19 +76,8 @@ Again, if you happen to speak danish: https://dmf.dk/news/lennart-jarde-et-todel
 We have several more collaborations in the works, however none of which are public, just yet. Stay tuned!
 
 ## Current status
-**(Late Mar. '22)**
-Latest prototype boards have arrived, and are seemingly working. However - we're facing serious difficulty getting the PICO-IC's soldered properly, and as a result have managed to get two boards working so far. These, however, are working nicely. We're currently trying to figure out, how we can improve on the soldering difficulties. 
-
-**(Early Apr. '22)**
-After removing the PICO-IC off of several µVox's I've found that regardsless of how much I've reworked the chip from above (and how nice the solder joints might look from up top), the pins weren't sticking properly! Seemingly I must've had too much solder on the GND pad, lifting the chip slightly, such that the pins wound't connect. This lift, plus a significant amount of flux seemingly left the pins NC'd. After taking the IC off, I've (don't tell anyone! 😬) pretinned the bottom of the IC with my soldering iron, and reworked the IC back onto the board. As a result i now have 8 working boards 👍.
-This solution clearly isn't viable, and for the next revision I'll be ordering a stencil, such that the PICO can be soldered with solder paste - which will hopefully mittigate the problem!. 
-
-**(Summer '22)**
-So.. The pico-core has been ditched, in favor of the good old WROVER module. So, we're now using a WROVER with 8MB PSRAM, and 16MB Flash. This has drastically improved the soldering process (as formerly mentioned). This change will also certainly make the future certification process signifianly easier, with regards to RF. 
-We've added overvoltage protection on the PVDD rail (upto 26V) and overvoltage protection on the 5v0 rail. The 5v0 rail was causing overshooting issues in the earlier revision, causing the amplifier IC to blow, on some (few, luckily) powersupplies. The 'front-ui' connector has been changed to one with more pins. This allows us to have the I2C bus routed up to front panel (reasons for which will be revealed later!). A JTAG header and a PVDD monitoring-circuit (for battery-level) as also been added.
-
-**(Fall '22)**
-We're finally getting serious about producing units for sale, as the design is now stable to a point where we fell as though µVox is ready. Our plan is to have 50 units produced by the end of Oct. 22. In preperation for said production run, we've expanded the design with a couple of new features: former front ui header, has now been replaced by two connectors; the extension and advanced extension connectors (extentions will be announced at a later stage.). We've implemented overvoltage protection on PVDD as well as 5v0. The onboard neopixels and the ERR diode have been replaced by a 'dumb' rgb diode, which will indicated system status. Lastly test-points have been added for production streamlining. Stay tuned.. 
+**(December '22)**
+Revision 0.9 has been pushed. Rev. 0.9 Introduces proper overvoltage protection, connectors for expansion modules, a 'dumb' rgb diode & updated graphics. Rev. 0.9 is our final tweaking of the board, before our first assembled batch of units! 🎉. We're aiming for having the first batch ready by January '23. Stay tuned, and reach out if you might like to become a beta-tester!
 
 ![plot](./Renders/muvox_wip_front.png)
 ![plot](./Renders/muvox_wip_back.png)

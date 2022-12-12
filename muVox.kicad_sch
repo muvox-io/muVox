@@ -4721,7 +4721,7 @@
     (uuid 99640620-ede9-4456-a2a6-35233b9b216a)
     (property "Reference" "J2" (id 0) (at 60.071 51.816 0))
     (property "Value" "JTAG_EXTRA" (id 1) (at 60.071 54.356 0))
-    (property "Footprint" "Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical" (id 2) (at 58.801 63.754 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" (id 2) (at 58.801 63.754 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 58.801 63.754 0)
@@ -6401,7 +6401,7 @@
       (reference "J1") (unit 1) (value "STEMMA QT") (footprint "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/99640620-ede9-4456-a2a6-35233b9b216a"
-      (reference "J2") (unit 1) (value "JTAG_EXTRA") (footprint "Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "JTAG_EXTRA") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical")
     )
     (path "/424e9c61-db4c-4cdd-9c56-01abcbfffff9"
       (reference "J3") (unit 1) (value "Programmer") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")

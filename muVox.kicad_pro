@@ -390,7 +390,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../Desktop/muVox.STEP",
+      "step": "muVox.STEP",
       "vrml": "muVox.wrl"
     },
     "page_layout_descr_file": ""

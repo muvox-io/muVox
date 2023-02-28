@@ -1,4 +1,4 @@
-20623693051474056
+20627345167595623
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58037,6 +58037,13 @@ CE
 0
 0
 Lib
+Cixi Kefa Sping 2Pin
+
+
+0
+2
+2
+Lib
 EC35AH240403
 
 
@@ -58050,6 +58057,13 @@ ESP32-WROVER
 0
 64
 39
+Lib
+FFC-SMD_F0302-B-39-10G-R
+
+
+0
+41
+41
 Lib
 FPC-SMD_18P-P0.50_FPC-05F-18PH20
 

@@ -135,6 +135,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": true,
@@ -445,6 +453,10 @@
     [
       "00000000-0000-0000-0000-000061f165f2",
       "DC Protection"
+    ],
+    [
+      "e5fbbeba-085e-4cd4-8f84-74e7a1c03860",
+      "DC_DC"
     ],
     [
       "e1926d9f-dcd0-4fb0-88d5-346fe5dbea73",

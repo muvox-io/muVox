@@ -76,9 +76,9 @@ Again, if you happen to speak danish: https://dmf.dk/news/lennart-jarde-et-todel
 We have several more collaborations in the works, however none of which are public, just yet. Stay tuned!
 
 ## Current status
-**(December '22)**
-Revision 0.9 has been pushed. Rev. 0.9 Introduces proper overvoltage protection, connectors for expansion modules, a 'dumb' rgb diode & updated graphics. Rev. 0.9 is our final tweaking of the board, before our first assembled batch of units! 🎉. We're aiming for having the first batch ready by January '23. Stay tuned, and reach out if you might like to become a beta-tester!
+**(March '23)**
+Rev 0.9 units are almost done in production. Due to fault by the PCB manufactorer, the whole process has been delayed.
+In the mean time Rev 0.92 has been developed. Changes include: Replacing our 3v3 LDO with a buck converter, replacing the 5v0 Buck, replacing the audio peripheral connector with a FPC connector (more on this later), replacing the speaker terminals with springloaded ones and shortening the board by ~8mm. Boards and parts will be ordered in the coming days.
 
-![plot](./Renders/muvox_wip_front.png)
-![plot](./Renders/muvox_wip_back.png)
-![plot](./Renders/PCB_IRL.jpg)
+![plot](./Renders/muvox_full.png)
+![plot](./Renders/muvox_closeup.png)
